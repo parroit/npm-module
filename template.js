@@ -53,9 +53,7 @@ exports.template = function (grunt, init, done) {
             "grunt-contrib-watch": "~0.5.3"
         };
 
-        props.scripts = {
-            "test": "grunt test"
-        };
+        props.npm_test =  "grunt test";
 
         props.travis = true;
 
