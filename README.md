@@ -5,8 +5,9 @@
 ## Features configured
 
 * The module will use grunt watch [grunt-mocha-test][] to continuously run your unit tests.
-* Config.json files are git ignored, to keep your secrets info secrets from start.
+* Config.json files are git ignored, to keep your secrets info secrets from the beginning of your work.
 * Travis CI will be configured by default. Travis builds will run on node 0.10
+* README file contains badges for Travis CI, NPM module version and Code Climate
 
 
 ## Installation
