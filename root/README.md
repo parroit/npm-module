@@ -1,4 +1,5 @@
-# {%= name %}{% if (travis) { %} [![Build Status](https://secure.travis-ci.org/{%= git_user %}/{%= git_repo %}.png?branch=master)](http://travis-ci.org/{%= git_user %}/{%= git_repo %}){% } %} {% if (travis) { %} [![Npm module](https://badge.fury.io/js/{%= git_repo %}.png)](https://npmjs.org/package/{%= git_repo %}){% } %}
+# {%= name %}{% if (travis) { %}
+[![Build Status](https://secure.travis-ci.org/{%= git_user %}/{%= git_repo %}.png?branch=master)](http://travis-ci.org/{%= git_user %}/{%= git_repo %}){% } %} {% if (travis) { %} [![Npm module](https://badge.fury.io/js/{%= git_repo %}.png)](https://npmjs.org/package/{%= git_repo %}){% } %} [![Code Climate](https://codeclimate.com/github/{%= git_user %}/{%= git_repo %}.png)](https://codeclimate.com/github/{%= git_user %}/{%= git_repo %})
 
 {%= description %}
 
